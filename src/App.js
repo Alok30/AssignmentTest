@@ -75,8 +75,9 @@ export default class App extends Component {
   render() {
    
     return (
-      <div className="container-fluid">
+      <div className="App" style={{"backgroundColor":"whitesmoke"}}>
            <h1>SpaceX Launch Programs</h1>
+           <div className="container-fluid">
         <div className="row">
           
           <div className="col-md-6 col-sm-12 col-xl-3">
@@ -193,6 +194,7 @@ export default class App extends Component {
             )}
           </div>
         </div>
+      </div>
       </div>
     );
   }

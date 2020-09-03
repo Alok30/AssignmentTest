@@ -1,0 +1,8 @@
+.cardContent{
+    width: 225px;
+    height: 450px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px!important;
+    text-align: left;
+}
